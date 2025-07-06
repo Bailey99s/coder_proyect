@@ -1,0 +1,229 @@
+body{
+    background: linear-gradient(to bottom, #03445a, #55eaf5);
+    height: 100vh;
+}
+html, body {
+    height: auto;
+    min-height: 100vh;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    background-color: antiquewhite;
+    border: solid 2px black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 100px #ADD8E6;
+    padding: 5px;
+}
+
+.about, .skill, .skills, .menu, .project, .view_git, .contact h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+  background-color: #18c4bb;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+  }
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 80px;
+    margin: 0px 50px 30px 0px;
+    font-weight: bold;
+    
+}
+
+
+.skills{
+    padding: 20px;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(5,5,5,5.5);
+    border-radius: 20px;
+    width: 400px;
+    height: 240px;
+    font-weight: bold;
+}
+
+.ul_skills{
+    list-style-type: none;
+}
+.skill{
+    background: linear-gradient(to right, #3dbee9, #034b50 );
+    padding: 5px;
+    margin: 20px;
+    font-size: 15px;
+    border-radius: 5px; 
+}
+
+#mifoto{
+    width: 350px;
+    height: auto;
+    border-radius: 20px;    
+    box-shadow: 0 4px 8px rgba(5,5,5,5.5);  
+}
+
+.foto_about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.texto_lado{
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(5,5,5,5.5);
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+}
+
+.info_aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.option{
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(2,2,2,2 );
+}
+
+.project{
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(5,5,5,5.5);
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    text-align: center;    
+    margin: 50px;
+    
+
+}
+
+.contact{
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(5,5,5,5.5);
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.git{
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(5,5,5,5.5);
+    border-radius: 20px;
+    width: 800px;
+    height: 50px;
+    padding: 20px;
+    
+}
+.git{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.view_git:hover {
+  background-color: #18c4bb;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+  }
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.github{
+    width: 50px;
+}
+
+.view_git{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    align-items: center;
+}
+
+.formulario{
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(5,5,5,5.5);
+    border-radius: 20px;
+    width: 800px;
+    height: 450px;
+    padding: 20px;
+
+}
+
+.formm{
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #email, #message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 500px;
+    margin: auto;
+}
+
+.name, .email, .message, .butt{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    background-color: #03445a;
+    border-radius: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: 0 0 10px #00b1ec;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.p_foot{
+    text-align: center;
+    font-size: bold;
+}
+
+/**
+box-shadow: 0 0 10px #ADD8E6; 
+margin: 20px auto;
+display: block;
+
+**/ 

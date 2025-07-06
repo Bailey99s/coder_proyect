@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio_styles.css">
+    <title>My personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Rafael J. Escoto. Riwi - Developer</h1>
+        <nav> <!--We create a list within a nav to take the user to various sections -->
+            <ul class="menu">
+                    <li class="option"> <a href="#aboutme">About me</a></li>
+                    <li class="option"> <a href="#project">Projects</a></li>
+                    <li class="option"> <a href="#contact">Contact</a></li>
+                </ul>
+        </nav>
+        
+    </header>
+    <section class="foto_about">
+        <img src="/portafolio/photo_mp.jpg" alt="Mi foto de Portafolio" id="mifoto" >
+        <!--We box the image and the text in the same block to be able to mold-->
+        <div class="info_aboutme">
+            <div class="texto_lado">
+                <h2 id="about_me" class="about">About me</h2> 
+                <p>Hello, my name is Rafael. I'm a growing developer, 
+                    learning more technologies and improving my skills and codes.</p>
+                <p>My short-term goal is to learn and master JavaScript 
+                    to take advantage of my creativity since it is my best skill.</p>
+            </div>
+
+            <!--I created another list to show the skills-->
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul class="ul_skills">
+                    <li class="skill">Python</li>
+                    <li class="skill">HTML</li>
+                    <li class="skill">CSS</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section>
+        <div id="project" class="pro">
+            <h2 class="project">My Projects</h2>
+<!--I put a section to show the social network or repository to show-->
+            <div class="git">
+                <img src="/portafolio/github.png" alt="" class="github">
+                <a class="view_git" href="https://github.com/Bailey99s/coder_proyect" target="_blank">View my Projects</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contacto">
+        <h2 id="contact" class="contact">Contact me</h2>
+        <div class="formulario">
+            <form class="formm" action="send" method="post">
+                
+                <label class="name" for="name">Name</label>
+                <input type="text" id="name" placeholder="Name"> <br>
+
+                <label class="email" for="email">Email</label>
+                <input type="email" id="email" placeholder="@Email"> <br> <br>
+                
+                <label class="message" for="message">Message</label> 
+                <textarea name="message" id="message" rows="5" cols="30">It will be a pleasure to work together.</textarea> <br>
+                <input class="butt" type="submit" value="send">
+            </form>
+        </div>
+<!--We finish with a simple form for anyone interested in contacting us.-->
+    </section>
+<footer>
+    <p class="p_foot">
+        Copyrigth © 2025
+    </p>
+</footer>    
+
+</body>
+</html>
